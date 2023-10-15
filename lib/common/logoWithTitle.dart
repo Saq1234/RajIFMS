@@ -9,7 +9,7 @@ class LogoWithTitle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-      backgroundColor: AppColor.whitecolor,
+      backgroundColor: AppColor.white_color,
       body:
       Container(
         //color: Colors.orange,
@@ -58,10 +58,10 @@ class LogoWithTitle extends StatelessWidget {
                   Container(
                     width: double.infinity,
                     height: MediaQuery.of(context).size.height/10,
-                    color: Colors.blue,
+                    color: AppColor.blue_color,
                     child: Center(child: Text(
                       "RajIFMS",style: TextStyle(
-                        color: AppColor.whitecolor,fontWeight: FontWeight.bold,fontSize: 30),)),
+                        color: AppColor.white_color,fontWeight: FontWeight.bold,fontSize: 30),)),
                   )
                 ],
               ),

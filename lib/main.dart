@@ -1,7 +1,5 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
-
 import 'common/appColor.dart';
 import 'landingPage/landing_page.dart';
 
@@ -44,7 +42,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return SafeArea(child:
     Scaffold(
-      backgroundColor: AppColor.whitecolor,
+      backgroundColor: AppColor.white_color,
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -77,7 +75,7 @@ class _SplashScreenState extends State<SplashScreen> {
               )
             ],),
           SizedBox(
-            height: MediaQuery.of(context).size.height/4,
+            height: MediaQuery.of(context).size.height/5,
           ),
           Container(
               margin: EdgeInsets.only(left: 30,right: 30),
@@ -87,7 +85,7 @@ class _SplashScreenState extends State<SplashScreen> {
           SizedBox(height: MediaQuery.of(context).size.height/4),
           Center(
             child: CircularProgressIndicator(
-              color: Colors.blue,
+              color: AppColor.blue_color,
             ),
           ),
 
